@@ -6,21 +6,26 @@ The model first uses a CNN to extract high-level features from each station's wa
 ./model/model.pth
 # Install conda and requirements
 ## Download repository
+```bash
 git clone https://github.com/ZHANG-EP/Classification_from_Multi-Station.git
 
 cd Classification_from_Multi-Station
+```
 # Install to "myenv" virtual envirionment
+```bash
 conda create -n myenv python=3.12 -y
 
 conda activate myenv
 
 pip install -r requirements.txt
+```
 # Quick Inference Demo
-#This script (Pred.py) loads the pre-trained model and runs inference on the sample Utah dataset located in example/test_data/.
-
+This script (Pred.py) loads the pre-trained model and runs inference on the sample Utah dataset located in example/test_data/.
+```python
 cd example
 
 python Pred.py
+```
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
 # Related paper

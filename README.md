@@ -13,10 +13,13 @@ cd Classification_from_Multi-Station
 conda create -n myenv python=3.12 -y
 
 conda activate myenv
+
 pip install -r requirements.txt
 # Quick Inference Demo
 #This script (Pred.py) loads the pre-trained model and runs inference on the sample Utah dataset located in example/test_data/.
+
 cd example
+
 python Pred.py
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.

@@ -30,3 +30,4 @@ python Pred.py
 This project is licensed under the MIT License - see the LICENSE file for details.
 # Related paper
 Enhanced Source Discrimination Between Tectonic Earthquakes and Quarry Blasts via a Hybrid CNN-GNN Trained with Multiple Stations. submitted to JGR: SE(Mar 2026).
+Any questions, please contact: zhangyun@chd.edu.cn.
